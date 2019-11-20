@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="014kadai.css">
+  <title>電卓</title>
+</head>
+<body>
+  <div class="caluculation-flame">
+    <div class="name">
+      電卓
+    </div>
+<div class="caluculation-area">
+  <input type="text" id="result" class="result-area">
+  <input type="button" value="C" class="C" onclick="delete()">
+<div class="inputarea">
+  <div class="top">
+    <input type="button" value="1" onclick="edit(this)">
+    <input type="button" value="2" onclick="edit(this)">
+    <input type="button" value="3" onclick="edit(this)">
+    <input type="button" value="+" onclick="edit(this)">
+  </div>
+  <div clas="upper">
+    <input type="button" value="4" onclick="edit(this)">
+    <input type="button" value="5" onclick="edit(this)">
+    <input type="button" value="6" onclick="edit(this)">
+    <input type="button" value="-" onclick="edit(this)">
+  </div>
+  <div clas="middle">
+    <input type="button" value="7" onclick="edit(this)">
+    <input type="button" value="8" onclick="edit(this)">
+    <input type="button" value="9" onclick="edit(this)">
+    <input type="button" value="/" onclick="edit(this)">
+  </div>
+  <div clas="bottom">
+    <input type="button" value="0" onclick="edit(this)">
+    <input type="button" value="." onclick="edit(this)">
+    <input type="button" value="*" onclick="edit(this)">
+    <input type="button" value="=" onclick="calc()">
+  </div>
+  </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="caluculation.js"></script>
+</body>
+</html>
